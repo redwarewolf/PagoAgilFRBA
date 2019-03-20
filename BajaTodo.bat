@@ -1,0 +1,1 @@
+sqlcmd -S LOCALHOST\SQLSERVER2012 -U gd -P gd2017 -i scripts\Baja\scriptBaja.sql -a 32767 -o resultado_baja.txt
